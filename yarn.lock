@@ -3912,7 +3912,7 @@ hoek@4.x.x:
   version "4.2.1"
   resolved "http://registry.npmjs.org/hoek/-/hoek-4.2.1.tgz#9634502aa12c445dd5a7c5734b572bb8738aacbb"
 
-hoist-non-react-statics@^2.5.0:
+hoist-non-react-statics@^2.3.1, hoist-non-react-statics@^2.5.0:
   version "2.5.5"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
 
@@ -6998,6 +6998,14 @@ react-lifecycles-compat@^3.0.0:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
+react-redux-firebase@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-redux-firebase/-/react-redux-firebase-2.2.1.tgz#5b3a3870978b8c591956375aa0656f95f29d2b57"
+  dependencies:
+    hoist-non-react-statics "^2.3.1"
+    lodash "^4.17.11"
+    prop-types "^15.6.2"
+
 react-redux@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-5.1.1.tgz#88e368682c7fa80e34e055cd7ac56f5936b0f52f"
@@ -7166,6 +7174,13 @@ recursive-readdir@2.2.2:
   resolved "https://registry.yarnpkg.com/recursive-readdir/-/recursive-readdir-2.2.2.tgz#9946fb3274e1628de6e36b2f6714953b4845094f"
   dependencies:
     minimatch "3.0.4"
+
+redux-firestore@^0.5.8:
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/redux-firestore/-/redux-firestore-0.5.8.tgz#fb73777a629350896f0e0ef7a3a4c8fa0a8b04aa"
+  dependencies:
+    lodash "^4.17.10"
+    prop-types "^15.6.1"
 
 redux-thunk@^2.3.0:
   version "2.3.0"
